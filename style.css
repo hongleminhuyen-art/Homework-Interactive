@@ -1,0 +1,65 @@
+.content {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+
+.content h1,
+.content p,
+.content h2 {
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.Elle-Woods1,
+.Elle-Woods2,
+.Elle-Woods3,
+.Elle-Woods4 {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+.sapo {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.note {
+    font-size: 13px;
+    color: grey;
+    margin-top: -10px;
+}
+
+
+.date {
+    font-size: 13px;
+    color: grey;
+    margin-top: -15px;
+}
+
+
+.content-text1,
+.content-text2,
+.content-text3,
+.content-text4,
+.content-text5,
+.content-text6,
+.side-note{
+    font-size: 15px;
+}
+
+
+h2 {
+    font-size: 24px;
+}
