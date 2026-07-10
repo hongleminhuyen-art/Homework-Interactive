@@ -1,0 +1,84 @@
+body {
+    background-color: beige;
+}
+
+
+#one {
+    background-color: orange;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    /* move from the top */ 
+    top: 100px;
+    /* move from the left */
+    left: 50px;
+    transform: rotate(-20deg);
+}
+
+#two {
+    background-color: navy;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    transform: rotate(30deg);
+}
+
+.container {
+    display: inline-block;
+    transform: rotate(30deg);
+    transform-origin: center;
+    position: absolute;
+    left: 400px;
+    bottom: 100px;
+}
+
+#three {
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    display: block;
+    }
+
+#four {
+    background-color: #800020;
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-left: 70px;
+}
+
+#five {
+  background-color: red;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  bottom:-120px; 
+  left: 100px;
+  right: 100px;
+}
+
+#six {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#seven {
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    bottom: 130px;
+    left: 400px;
+    z-index: -1;
+}
+
+
+/* nhung lenh duoc viet sau se de len lenh truoc
+nhung lenh duoc viet internal ben html se duoc de len css
+nhung lenh duoc viet ro rang hon nhu class se de len nhung lenh nhu div */
